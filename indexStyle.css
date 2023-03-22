@@ -1,0 +1,44 @@
+.logotipo{
+    width: auto;
+    height: 3rem;
+}
+
+.logoPresentacion{
+    width: auto;
+    height: 9rem;
+}
+
+.presentacion{
+    background-image: linear-gradient(to bottom, #c9956a, #ce9b70, #d4a177, #d9a77d, #dfad84,#f0c7a5,#ffff);
+    width: auto;
+    height: auto;
+}
+
+.badge{
+    background-color: #c9956a !important;
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.list-group-item{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.datos{
+    background-color: #9eacac;
+}
+
+footer{
+    background-color: #000000;
+}
+
+.subTitulo h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-top: double 4px;
+    border-bottom: double 4px;
+}

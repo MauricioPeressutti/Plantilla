@@ -1,0 +1,45 @@
+:root {
+    /* PALETA DE COLORES */
+    --first: #b5835e;
+    --second: #9eacac;
+    --third: #6d5d50;
+    --fourth: #00190e;
+    --fifth: #b5835e;
+}
+
+html, body{
+    /* background-image: linear-gradient(to right top, #b5835e, #b89173, #d3b69f, #ddccbe, #f1c6a5);
+    width: auto;
+    height: auto; */
+    font-family: customFonts;
+}
+
+button, .btn-success{
+    background-color: var(--first) !important;
+}
+
+.glass-card{
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.9px);
+    -webkit-backdrop-filter: blur(4.9px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card:hover{
+    background: rgba(255, 255, 255, 0.432);
+    transition: 1000ms;
+}
+
+@font-face {
+    font-family: customFonts;
+    src: url(font/Yaldevi-VariableFont_wght.ttf);
+}
+.bg-body-tertiary{
+    background-color: #c9956a !important;
+}
+
+.navbar-nav, a{
+    color: #FFFF !important;
+}
