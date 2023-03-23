@@ -16,3 +16,13 @@
 .col-img{
     padding-left: 0px;
 }
+
+@media (min-width: 992px){
+    h1{
+        font-size: 53px;
+    }
+    p{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
