@@ -43,3 +43,8 @@ button, .btn-success{
 .navbar-nav, a{
     color: #FFFF !important;
 }
+
+.logotipo{
+    width: auto;
+    height: 3rem;
+}

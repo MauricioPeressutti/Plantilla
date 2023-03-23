@@ -1,0 +1,18 @@
+@import 'styleDefine.css';
+
+.presentacion{
+    background-color: var(--second) !important;
+}
+
+.igriega-img{
+    width: 100%;
+    height: auto;   
+}
+
+.desc{
+    padding: 12% 4%;
+}
+
+.col-img{
+    padding-left: 0px;
+}
