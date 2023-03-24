@@ -8,9 +8,6 @@
 }
 
 html, body{
-    /* background-image: linear-gradient(to right top, #b5835e, #b89173, #d3b69f, #ddccbe, #f1c6a5);
-    width: auto;
-    height: auto; */
     font-family: customFonts;
 }
 
@@ -18,18 +15,21 @@ button, .btn-success{
     background-color: var(--first) !important;
 }
 
-.glass-card{
-    background: rgba(255, 255, 255, 0.17);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.9px);
-    -webkit-backdrop-filter: blur(4.9px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.glass-card:hover{
-    background: rgba(255, 255, 255, 0.432);
-    transition: 1000ms;
+a, .btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--first) !important;;
+    --bs-btn-border-color: var(--first) !important;;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--first) !important;;
+    --bs-btn-hover-border-color: var(--first) !important;;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--first) !important;;
+    --bs-btn-active-border-color: var(--first) !important;;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--first) !important;;
+    --bs-btn-disabled-border-color: var(--first) !important;;
 }
 
 @font-face {

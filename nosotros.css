@@ -5,24 +5,35 @@
 }
 
 .igriega-img{
+    max-width: 700px;
     width: 100%;
-    height: auto;   
+    height: auto;
 }
 
 .desc{
-    padding: 12% 4%;
 }
 
 .col-img{
-    padding-left: 0px;
 }
 
-@media (min-width: 992px){
-    h1{
-        font-size: 53px;
-    }
-    p{
-        font-size: 25px;
-        line-height: 30px;
-    }
+.glass-card{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+}
+
+.glass-card:hover{
+    background: rgba(255, 255, 255, 0.432);
+    transition: 1000ms;
+}
+
+.section-2{
+    background: radial-gradient(circle at top right,transparent 10%,#d5a994 10%, #d5a994 20%, transparent 21%), radial-gradient(circle at left bottom,transparent 10%,#d5a994 10%,#d5a994 20%, transparent 21%),radial-gradient(circle at top left,transparent 10%,#d5a994 10%,#d5a994 20%, transparent 21%), radial-gradient(circle at right bottom,transparent 10%,#d5a994 10%,#d5a994 20%, transparent 21%), radial-gradient(circle at center,#d5a994 30%, transparent 31%);
+    background-size: 2em 2em;
+    background-color: #ffffff;
+    opacity: 1;
 }
