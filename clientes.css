@@ -1,0 +1,84 @@
+@import 'styleDefine.css';
+
+
+
+
+.relleno{
+    font-weight: bolder;
+    color: #F99E07;
+    font-size: 5rem;
+}
+.borde{
+    font-size: 5rem;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #400741;
+    color: transparent; 
+    position: absolute;
+    transform: translate(0.2rem, 0.2rem);
+    /* text-shadow: -0.3px -0.3px 0.3px #400741, 0.3px -0.3px 0.3px #400741, -0.3px 0.3px 0.3px #400741, 0.3px 0.3px 0.3px #400741; */
+    /* border: 0.3px solid #400741; */
+}
+
+
+
+@media (min-width: 700px) {
+    .relleno{
+        font-size: 8rem;
+    }
+    .borde{
+        -webkit-text-stroke: 1px #400741;
+        font-size: 8rem;
+        transform: translate(0.5rem, 0.5rem);
+    }
+}
+
+
+
+
+/* CARRUCEL */
+
+#carrucel .hcg-slide-container {
+	width: auto;
+	height: auto;
+}
+.hcg-slider {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.hcg-slide-container {
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.hcg-slides {
+	display: none;
+	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+	/* border-radius: 5px;
+	border: solid 1px #a0a0a0; */
+}
+.hcg-slides img {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+}
+/************CSS Animation***********/
+
+.animated { 
+	animation-name: fadeInDown; 
+	animation-duration: 1s;
+}
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.fadeInDown {
+	animation-name: fadeInDown;
+}
