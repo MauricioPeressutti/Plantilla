@@ -1,0 +1,9 @@
+@import 'styleDefine.css';
+
+.card{
+    background-color: var(--second) !important;;
+}
+
+body{
+    
+}
