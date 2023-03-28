@@ -18,6 +18,10 @@ h1{
     font-size: 4rem;
 }
 
+h1,h2{
+    font-family: customFontsBold;
+}
+
 .list-group-item{
     padding-left: 0px;
     padding-right: 0px;

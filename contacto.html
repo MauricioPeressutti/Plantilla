@@ -15,7 +15,7 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
               <img src="./logo.jpg" class="logotipo rounded-circle" alt="Y">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -34,55 +34,59 @@
         </nav>
       </header>
       <div class="container-fluid">
-        <div class="row pt-5">
-          <div class="col-xl-2 col-xs-1"></div>
-          <div class="col-xl-8 col-xs-10">
-            <div class="card text-end">
-              <div class="card-body">
-                <h5 class="card-title">Envianos un Email para contactarte</h5>
-                <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
-                <div class="row">
-                  <div class="col-xl-6 col-sm-12">
-                    <div class="mb-3">
-                      <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
-                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <form action="https://formsubmit.co/mauricioperessutti@gmail.com" method="POST">
+          <div class="row pt-5">
+            <div class="col-xl-2 col-xs-1"></div>
+            <div class="col-xl-8 col-xs-10">
+              <div class="card text-end">
+                <div class="card-body">
+                  <h5 class="card-title mb-5">Envianos un Email para contactarte</h5>
+                  <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+                  <div class="row">
+                    <div class="col-xl-6 col-sm-12">
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Ingrese su Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12">
+                      <div class="mb-3">
+                        <label class="form-label" for="phone">Numero de telefono</label>
+                          <input type="text" id="phone" class="form-control" placeholder="+54 266-999999" />
+                      </div>
                     </div>
                   </div>
-                  <div class="col-xl-6 col-sm-12">
-                    <div class="mb-3">
-                      <label class="form-label" for="phone">Numero de telefono</label>
-                        <input type="text" id="phone" class="form-control" placeholder="+54 266-999999" />
+                  <div class="row">
+                    <div class="col-xl-6 col-sm-12">
+                      <div class="mb-3">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name">
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-sm-12">
+                      <div class="mb-3">
+                        <label class="form-label" for="lastName">Apellido</label>
+                          <input type="text" id="lastName" class="form-control"/>
+                        </div>
+                      </div>
+                    </div>
+                    <input type="hidden" name="_next" value="https://mauricioperessutti.github.io/Plantilla/index.html"/>
+                    <input type="hidden" name="_captcha" value="false"/>
+                  <div class="row">
+                    <div class="col-xl-12 col-sm-12">
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Descripcion / consulta.</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" name="comments"  rows="3"></textarea>
+                      </div>
                     </div>
                   </div>
+                  <input type="submit" value="Enviar" class="btn btn-primary"></input>
                 </div>
-                <div class="row">
-                  <div class="col-xl-6 col-sm-12">
-                    <div class="mb-3">
-                      <label class="form-label">Nombre</label>
-                      <input type="text" class="form-control" id="name">
-                    </div>
-                  </div>
-                  <div class="col-xl-6 col-sm-12">
-                    <div class="mb-3">
-                      <label class="form-label" for="lastName">Apellido</label>
-                        <input type="text" id="lastName" class="form-control"/>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xl-12 col-sm-12">
-                    <div class="mb-3">
-                      <label for="exampleFormControlTextarea1" class="form-label">Descripcion / consulta.</label>
-                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <a href="#" class="btn btn-primary">Enviar</a>
               </div>
             </div>
+            <div class="col-xl-2 col-xs-1"></div>
           </div>
-          <div class="col-xl-2 col-xs-1"></div>
-        </div>
+        </form>
       </div>
       <a href="https://wa.me/+5492665022520?text=Hola%20IGRIEGA%20queria%20consultarte%20por..." class="float">
         <img src="./assets/whatsapp.svg" alt="whatsapp" class="wsIcon">

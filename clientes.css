@@ -6,15 +6,15 @@
 .relleno{
     font-weight: bolder;
     color: #F99E07;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .borde{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: bolder;
-    -webkit-text-stroke: 1px #400741;
+    -webkit-text-stroke: 0.2px #400741;
     color: transparent; 
     position: absolute;
-    transform: translate(0.2rem, 0.2rem);
+    transform: translate(0.25rem, 0.25rem);
     /* text-shadow: -0.3px -0.3px 0.3px #400741, 0.3px -0.3px 0.3px #400741, -0.3px 0.3px 0.3px #400741, 0.3px 0.3px 0.3px #400741; */
     /* border: 0.3px solid #400741; */
 }
@@ -23,12 +23,12 @@
 
 @media (min-width: 700px) {
     .relleno{
-        font-size: 8rem;
+        font-size: 4rem;
     }
     .borde{
-        -webkit-text-stroke: 1px #400741;
-        font-size: 8rem;
-        transform: translate(0.5rem, 0.5rem);
+        -webkit-text-stroke: 0.2px #400741;
+        font-size: 4rem;
+        transform: translate(0.25rem, 0.25rem);
     }
 }
 

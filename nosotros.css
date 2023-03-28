@@ -168,3 +168,8 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+
+
+h1,h2{
+    font-family: customFontsBold;
+}

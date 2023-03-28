@@ -34,8 +34,13 @@ a, .btn-primary{
 
 @font-face {
     font-family: customFonts;
-    src: url(font/Yaldevi-VariableFont_wght.ttf);
+    src: url(font/static/Montserrat-Medium.ttf);
 }
+@font-face {
+    font-family: customFontsBold;
+    src: url(font/static/Montserrat-Black.ttf);
+}
+
 .bg-body-tertiary{
     background-color: #c9956a !important;
 }
