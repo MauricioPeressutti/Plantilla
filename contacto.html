@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="container-fluid">
-        <form action="https://formsubmit.co/mauricioperessutti@gmail.com" method="POST">
+        <form id="contact-form">
           <div class="row pt-5">
             <div class="col-xl-2 col-xs-1"></div>
             <div class="col-xl-8 col-xs-10">
@@ -87,7 +87,7 @@
                     </div>
                   </div>
                   <div class="d-grid gap-2">
-                    <button  type="submit" value="Enviar" class="btn btn-primary">Enviar</button >
+                    <button  type="submit" value="Enviar" class="btn btn-primary" onclick="sendEmail()">Enviar</button >
                   </div>
                 </div>
               </div>
@@ -100,5 +100,7 @@
         <img src="./assets/whatsapp.svg" alt="whatsapp" class="wsIcon">
       </a>
       <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script src="mail.js"></script>
 </body>
 </html>
