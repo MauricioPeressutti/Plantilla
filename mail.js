@@ -8,19 +8,36 @@ function sendEmail() {
       Host: "smtp.elasticemail.com",
       Username: "enviador.boss@gmail.com",
       Password: "1C10ECBFC18E8BDE84054FA5995A0966EAE8",
-      To: 'mauricioperessutti@gmail.com',
-      From: email,
-      Subject: "Envio de mail desde la web de IGRIEGA de " + name + " " + lastName + "Telefono: " + phone,
+      To: 'enviador.boss@gmail.com',
+      From: "enviador.boss@gmail.com",
+      Subject: "Envio de mail desde la web de IGRIEGA de " + name + " " + lastName + " Telefono: " + phone + " Email: " + email,
       Body: description,
+      Attachments: []
     })
       .then(function (message) {
         alert("Mail has been sent successfully")
-        location.href = 'index.html'
+        window.location.href = 'index.html';
       });
 
-
 }
 
-function checkValues(){
 
-}
+
+// function sendEmail() {
+    
+//     Email.send({
+//       Host: "smtp.elasticemail.com",
+//       Username: "enviador.boss@gmail.com",
+//       Password: "1C10ECBFC18E8BDE84054FA5995A0966EAE8",
+//       To: 'mauricioperessutti@gmail.com',
+//       From: email,
+//       Subject: "Envio de mail desde la web de IGRIEGA de " + name + " " + lastName + "Telefono: " + phone,
+//       Body: description,
+//     })
+//       .then(function (message) {
+//         alert("Mail has been sent successfully")
+//         location.href = 'index.html'
+//       });
+
+
+// }
