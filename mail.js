@@ -4,7 +4,6 @@ function sendEmail() {
     let name = document.getElementById("name").value;
     let lastName = document.getElementById("lastName").value;
     let description = document.getElementById("descripcionId").value;
-    debugger
     Email.send({
       Host: "smtp.elasticemail.com",
       Username: "enviador.boss@gmail.com",
@@ -16,7 +15,9 @@ function sendEmail() {
     })
       .then(function (message) {
         alert("Mail has been sent successfully")
+        location.href = 'index.html'
       });
+
 
 }
 
